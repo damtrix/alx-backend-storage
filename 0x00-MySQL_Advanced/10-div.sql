@@ -15,5 +15,5 @@ BEGIN
         END IF;
         SET result = (a * 1.0) / b;
         RETURN result;
-END;$$
+END$$
 DELIMITER ;
